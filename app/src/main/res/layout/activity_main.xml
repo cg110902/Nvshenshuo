@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshWebView
+        android:id="@+id/pull_refresh_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <include
+        android:id="@+id/layout_progress"
+        layout="@layout/layout_progressbar"
+        android:visibility="gone" />
+
+</RelativeLayout>
